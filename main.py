@@ -7,7 +7,6 @@ import DiscordUtils
 from discord.ext import tasks
 from datetime import date
 import asyncio
-from keep_alive import keep_alive
 
 
 intents= discord.Intents.default()
@@ -47,5 +46,5 @@ async def on_guild_join(guild):
       	
       		
 	
-keep_alive()
+
 client.run('ODk4ODg1NTQ4MTA0NjM0NDIw.YWquZw.67QRMFWMiaX0IsO7AANQBSWaBow')
